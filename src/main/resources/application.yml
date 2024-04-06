@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:pavankalyan@pavankalyan.k0cosgg.mongodb.net/?retryWrites=true&w=majority&appName=pavankalyan
+      database: orderdb
+      repositories:
+        enabled: true
+
+eureka:
+  client:
+    service-url:
+      dafaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8084
